@@ -99,7 +99,6 @@ export default function GstCalculator() {
             onChange={(e) => setGstRate(e.target.value)}
           >
             <MenuItem value={28}>28%</MenuItem>
-            <MenuItem value={18}>18%</MenuItem>
             <MenuItem value={12}>12%</MenuItem>
           </Select>
         </FormControl>
